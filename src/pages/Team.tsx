@@ -1,9 +1,13 @@
+import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import TeamMember from "@/components/TeamMember";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Team = () => {
+  useEffect(() => {
+    document.title = "Our Team | Asmi AI";
+  }, []);
   const founders = [
     {
       name: "Rishi",

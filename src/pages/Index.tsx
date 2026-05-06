@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import WaitlistForm from "@/components/WaitlistForm";
 import heroBg from "@/assets/hero-bg.mp4";
 
 const Index = () => {
+  useEffect(() => {
+    document.title = "Asmi AI - Building Personal Intelligence";
+  }, []);
   return (
     <div className="flex h-full flex-col overflow-hidden bg-background">
       <Navigation />
