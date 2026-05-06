@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 
 interface PrivacySectionProps {
@@ -40,6 +41,10 @@ const BulletList = ({ items }: { items: React.ReactNode[] }) => (
 );
 
 const Privacy = () => {
+  useEffect(() => {
+    document.title = "Privacy Policy | Asmi AI";
+  }, []);
+
   return (
     <div className="flex h-full flex-col overflow-hidden bg-background">
       <Navigation />
