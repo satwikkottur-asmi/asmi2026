@@ -259,7 +259,27 @@ const Privacy = () => {
             </p>
           </PrivacySection>
 
-          <PrivacySection number="09 - Changes To This Policy" title="Changes to this policy" delay={3}>
+          <PrivacySection number="09 - SMS Communications" title="SMS communications" delay={3}>
+            <p className="mb-4 leading-relaxed">
+              We may send SMS (text) messages to users based on their interactions with Asmi. These messages
+              are sent only after the user provides consent, either during account registration or through
+              explicit confirmation during an interaction (such as a call).
+            </p>
+            <p className="mb-4 leading-relaxed">
+              SMS messages are strictly transactional and informational, including summaries of interactions,
+              confirmations, and responses to user-initiated requests. Message frequency varies based on user
+              activity.
+            </p>
+            <p className="mb-4 leading-relaxed">
+              Users may opt out of receiving SMS messages at any time by replying <span className="font-mono">STOP</span> and may
+              request assistance by replying <span className="font-mono">HELP</span>. Message and data rates may apply.
+            </p>
+            <p className="leading-relaxed">
+              We do not send unsolicited marketing or promotional messages via SMS.
+            </p>
+          </PrivacySection>
+
+          <PrivacySection number="10 - Changes To This Policy" title="Changes to this policy" delay={4}>
             <p className="mb-4 leading-relaxed">
               We will notify you of any material changes to this policy via WhatsApp/iMessage or email before
               they take effect. Continued use of Asmi after notification constitutes acceptance of the updated
@@ -268,7 +288,7 @@ const Privacy = () => {
             <p className="leading-relaxed">The version history of this policy is available on request.</p>
           </PrivacySection>
 
-          <PrivacySection number="10 - Contact" title="Contact" delay={4}>
+          <PrivacySection number="11 - Contact" title="Contact" delay={0}>
             <p className="mb-4 leading-relaxed">
               For any questions about this policy, to exercise your data rights, or to report a concern:
             </p>
